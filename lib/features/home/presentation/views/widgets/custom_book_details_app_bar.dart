@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class CustomBookDetailsAppBAr extends StatelessWidget {
@@ -6,11 +5,17 @@ class CustomBookDetailsAppBAr extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Padding(
-      padding: EdgeInsets.symmetric(horizontal: 30),
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 30, horizontal: 30),
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
-        children: [Icon(Icons.close), Icon(Icons.shopping_cart_outlined)],
+        children: [
+          IconButton(onPressed: () {}, icon: const Icon(Icons.close)),
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.shopping_cart_checkout_outlined),
+          ),
+        ],
       ),
     );
   }
