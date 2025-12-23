@@ -3,6 +3,7 @@ import 'package:bookly_app/features/home/presentation/views/widgets/book_rating.
 import 'package:bookly_app/features/home/presentation/views/widgets/books_action.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/custom_book_details_app_bar.dart';
 import 'package:bookly_app/features/home/presentation/views/widgets/custom_book_item.dart';
+import 'package:bookly_app/features/home/presentation/views/widgets/similar_book_list_view.dart';
 import 'package:flutter/material.dart';
 
 class BookDetailViewBody extends StatelessWidget {
@@ -31,10 +32,23 @@ class BookDetailViewBody extends StatelessWidget {
             fontWeight: FontWeight.w500,
           ),
         ),
-        const SizedBox(height: 18),
+        const SizedBox(height: 10),
         const BookRating(),
-        const SizedBox(height: 37),
+        const SizedBox(height: 30),
         const BookAction(),
+        const SizedBox(height: 30),
+        Padding(
+          padding: const EdgeInsets.symmetric(horizontal: 12),
+          child: Align(
+            alignment: AlignmentGeometry.centerLeft,
+            child: Text(
+              "You can  aslo like ",
+              style: Styles.textStyle14.copyWith(fontWeight: FontWeight.w600),
+            ),
+          ),
+        ),
+        const SizedBox(height: 13),
+        const SimilarBookListView(),
       ],
     );
   }
