@@ -16,11 +16,16 @@ class CustomSearchTextField extends StatelessWidget {
             child: Icon(FontAwesomeIcons.magnifyingGlass, size: 28),
           ),
         ),
-        enabledBorder: OutlineInputBorder(
-          borderRadius: BorderRadius.circular(12),
-          borderSide: const BorderSide(color: Colors.white),
-        ),
+        enabledBorder: buildInputBorder(),
+        focusedBorder: buildInputBorder(),
       ),
+    );
+  }
+
+  OutlineInputBorder buildInputBorder() {
+    return OutlineInputBorder(
+      borderRadius: BorderRadius.circular(12),
+      borderSide: const BorderSide(color: Colors.white),
     );
   }
 }
