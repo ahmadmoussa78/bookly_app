@@ -39,7 +39,7 @@ class BooksDetailsSection extends StatelessWidget {
           count: book.volumeInfo.ratingsCount ?? 0,
         ),
         const SizedBox(height: 30),
-        const BookAction(),
+        BookAction(bookModel: book),
       ],
     );
   }
