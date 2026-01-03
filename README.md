@@ -30,7 +30,7 @@ The app consumes a third-party books API to display featured and latest books wh
 
 [Home]
 
-(<img width="411" height="891" alt="HomeView" src="https://github.com/user-attachments/assets/fd2f52f8-8f5c-431d-8cf6-6990ed73b571" />) 
+(<img width="100" height="200" alt="HomeView" src="https://github.com/user-attachments/assets/fd2f52f8-8f5c-431d-8cf6-6990ed73b571" />) 
 
 
 
@@ -38,7 +38,7 @@ The app consumes a third-party books API to display featured and latest books wh
 
 [Details] 
 
-<img width="411" height="891" alt="Detailed View" src="https://github.com/user-attachments/assets/9fda6eb0-1794-444f-8f16-96a8a0aad79d" />) 
+<img width="100" height="200" alt="Detailed View" src="https://github.com/user-attachments/assets/9fda6eb0-1794-444f-8f16-96a8a0aad79d" />) 
 
 
 
@@ -46,7 +46,7 @@ The app consumes a third-party books API to display featured and latest books wh
 
 [Preview Book](
 
-<img width="411" height="891" alt="Preview" src="https://github.com/user-attachments/assets/8800767a-82e6-4efc-9af5-9a5a8318ea43"/>) 
+<img width="100" height="200" alt="Preview" src="https://github.com/user-attachments/assets/8800767a-82e6-4efc-9af5-9a5a8318ea43"/>) 
 
 
 
@@ -54,7 +54,7 @@ The app consumes a third-party books API to display featured and latest books wh
 
 [Search]
 
-(<img width="411" height="891" alt="Search View" src="https://github.com/user-attachments/assets/a6959078-bbce-4075-ba1e-24dbb56aa60f" />)
+(<img width="100" height="200" alt="Search View" src="https://github.com/user-attachments/assets/a6959078-bbce-4075-ba1e-24dbb56aa60f" />)
 
 
 
