@@ -19,7 +19,8 @@ The app consumes a third-party books API to display featured and latest books wh
 ## 🖼️ Screenshots
 
 
-[Splash](<img width="411" height="891" alt="Splash Screen" src="https://github.com/user-attachments/assets/55f6d852-2023-4f10-ab77-2feb3556c8c3" />)
+
+[Splash] <img width="1080" height="2400" alt="Splash Screen" src="https://github.com/user-attachments/assets/565482ea-1145-416f-9dde-4051195d8813" />
 
 
 
