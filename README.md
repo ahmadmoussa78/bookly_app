@@ -1,16 +1,51 @@
-# bookly_app
+# 📚 Bookly App
 
-A new Flutter project.
+[![Flutter](https://img.shields.io/badge/Flutter-Framework-blue)]
+[![Dart](https://img.shields.io/badge/Dart-Language-blue)]
+[![Bloc](https://img.shields.io/badge/Bloc-State%20Management-purple)]
+[![MVVM](https://img.shields.io/badge/Architecture-MVVM-green)]
 
-## Getting Started
+Bookly App is a Flutter-based mobile application for browsing and exploring books using a remote RESTful API.  
+It demonstrates clean architecture, modern state management, and scalable project organization.
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📝 Overview
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+The app consumes a third-party books API to display featured and latest books while maintaining a clear separation between UI and business logic.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🏗️ Architecture
+
+The application follows the **MVVM (Model–View–ViewModel)** architecture:
+
+- **Model**: API data and domain entities  
+- **View**: Flutter UI components  
+- **ViewModel**: Business logic and state management using Bloc and Cubit  
+
+This approach ensures maintainability, testability, and scalability.
+
+---
+
+## 🧠 State Management
+
+- **Bloc & Cubit**
+- Cubit for simple state flows
+- Bloc for complex logic
+- Proper handling of loading, success, and error states
+
+---
+
+## 🌐 API Integration
+
+- RESTful API consumption  
+- API testing using **Postman**  
+- Strongly typed Dart models  
+- Centralized error and network handling  
+
+---
+
+## 🛠️ Tech Stack
+
+Flutter · Dart · Bloc/Cubit · MVVM · REST API · Postman
