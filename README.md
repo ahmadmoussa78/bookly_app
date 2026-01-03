@@ -1,52 +1,51 @@
-# Bookly App
+# 📚 Bookly App
 
-Bookly App is a Flutter-based mobile application designed to explore and browse books using a remote RESTful API.  
-The project demonstrates clean architecture principles, modern state management, and scalable code organization.
+[![Flutter](https://img.shields.io/badge/Flutter-Framework-blue)]
+[![Dart](https://img.shields.io/badge/Dart-Language-blue)]
+[![Bloc](https://img.shields.io/badge/Bloc-State%20Management-purple)]
+[![MVVM](https://img.shields.io/badge/Architecture-MVVM-green)]
 
----
-
-## Overview
-
-The application consumes a third-party books API to display featured and latest books.  
-It focuses on maintainability, separation of concerns, and predictable state management.
+Bookly App is a Flutter-based mobile application for browsing and exploring books using a remote RESTful API.  
+It demonstrates clean architecture, modern state management, and scalable project organization.
 
 ---
 
-## Architecture
+## 📝 Overview
 
-The project is structured using the **MVVM (Model–View–ViewModel)** architecture:
-
-- **Model**: Represents API data and domain entities
-- **View**: Flutter UI components
-- **ViewModel**: Handles business logic and state management using Bloc and Cubit
-
-This architecture ensures a clear separation between UI and business logic, making the application easier to maintain and scale.
+The app consumes a third-party books API to display featured and latest books while maintaining a clear separation between UI and business logic.
 
 ---
 
-## State Management
+## 🏗️ Architecture
 
-- **Bloc & Cubit** are used for managing application state
-- Cubit is applied for simple state flows
-- Bloc is used where more complex logic is required
-- Explicit handling of loading, success, and error states
+The application follows the **MVVM (Model–View–ViewModel)** architecture:
 
----
+- **Model**: API data and domain entities  
+- **View**: Flutter UI components  
+- **ViewModel**: Business logic and state management using Bloc and Cubit  
 
-## API Integration
-
-- RESTful API consumption
-- API requests tested and validated using **Postman**
-- Data mapping handled through strongly typed Dart models
-- Centralized error handling and network abstraction
+This approach ensures maintainability, testability, and scalability.
 
 ---
 
-## Technology Stack
+## 🧠 State Management
 
-- Flutter
-- Dart
-- Bloc / Cubit
-- MVVM Architecture
-- REST API
-- Postman
+- **Bloc & Cubit**
+- Cubit for simple state flows
+- Bloc for complex logic
+- Proper handling of loading, success, and error states
+
+---
+
+## 🌐 API Integration
+
+- RESTful API consumption  
+- API testing using **Postman**  
+- Strongly typed Dart models  
+- Centralized error and network handling  
+
+---
+
+## 🛠️ Tech Stack
+
+Flutter · Dart · Bloc/Cubit · MVVM · REST API · Postman
