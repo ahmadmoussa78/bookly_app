@@ -18,7 +18,7 @@ The app consumes a third-party books API to display featured and latest books wh
 
 ## 🖼️ Screenshots
 
-[Splash](<img width="411" height="891" alt="Splash Screen" src="https://github.com/user-attachments/assets/55f6d852-2023-4f10-ab77-2feb3556c8c3" />) ![Home](<img width="1080" height="2400" alt="HomeView" src="https://github.com/user-attachments/assets/fd2f52f8-8f5c-431d-8cf6-6990ed73b571" />) | ![Details] (<img width="1080" height="2400" alt="Detailed View" src="https://github.com/user-attachments/assets/9fda6eb0-1794-444f-8f16-96a8a0aad79d" />) | [Preview Book](<img width="1080" height="2400" alt="Preview" src="https://github.com/user-attachments/assets/8800767a-82e6-4efc-9af5-9a5a8318ea43"/>) | ![Search](<img width="1080" height="2400" alt="Search View" src="https://github.com/user-attachments/assets/a6959078-bbce-4075-ba1e-24dbb56aa60f" />)
+[Splash](<img width="411" height="891" alt="Splash Screen" src="https://github.com/user-attachments/assets/55f6d852-2023-4f10-ab77-2feb3556c8c3" />) ![Home](<img width="411" height="891" alt="HomeView" src="https://github.com/user-attachments/assets/fd2f52f8-8f5c-431d-8cf6-6990ed73b571" />) | ![Details] (<img width="411" height="891" alt="Detailed View" src="https://github.com/user-attachments/assets/9fda6eb0-1794-444f-8f16-96a8a0aad79d" />) | [Preview Book](<img width="411" height="891" alt="Preview" src="https://github.com/user-attachments/assets/8800767a-82e6-4efc-9af5-9a5a8318ea43"/>) | ![Search](<img width="411" height="891" alt="Search View" src="https://github.com/user-attachments/assets/a6959078-bbce-4075-ba1e-24dbb56aa60f" />)
 
 
 ## 🏗️ Architecture
