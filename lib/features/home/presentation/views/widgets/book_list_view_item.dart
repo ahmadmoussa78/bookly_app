@@ -35,8 +35,7 @@ class BookListViewItem extends StatelessWidget {
                       style: Styles.textStyle20.copyWith(
                         fontFamily: kGtSectraFine,
                       ),
-
-                      maxLines: 2,
+                      maxLines: 1,
                     ),
                   ),
                   const SizedBox(height: 3),
